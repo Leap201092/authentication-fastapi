@@ -1,5 +1,17 @@
-node_modules
-Venv
+# Node
+node_modules/
+
+# Python
+venv/
+__pycache__/
+**/__pycache__/
+
+# Env files
 .env
 .env.*
-__pycache__
+
+# Backend temporary files
+backend/**/*.txt
+
+# Frontend (optional)
+frontend/**/*.txt
