@@ -1,0 +1,18 @@
+1 npm create vite@latest
+2 npm i react-router-dom
+3 npm install tailwindcss @tailwindcss/vite
+4 vite.config.ts
+    import tailwindcss from '@tailwindcss/vite'
+    tailwindcss()
+5 index.css
+    @import "tailwindcss";
+6 npm i axios
+7 navbar basic
+    tailblocks
+8 plugin
+    html to JSX
+9 npm i react-icons
+10 npm i formik គឺជា library សម្រាប់គ្រប់គ្រង form state នៅក្នុង React
+11 npm i yup គឺជា library សម្រាប់ validation schema
+
+12 npm i react-toastify
