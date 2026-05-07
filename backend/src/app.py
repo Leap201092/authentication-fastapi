@@ -10,6 +10,7 @@ app = FastAPI()
 # middleware
 origins = [
     "http://localhost:5173",  # React (Vite)
+    "https://authentication-fastapi-dun.vercel.app", # deployed frontend
 ]
 app.add_middleware(
     CORSMiddleware,
